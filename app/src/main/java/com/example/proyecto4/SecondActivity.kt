@@ -49,7 +49,7 @@ class SecondActivity : AppCompatActivity() {
             }
         }
 
-        // Acción del botón Cerrar sesión
+        // Acción del botón Cerrar sesión11
         btnLogout.setOnClickListener {
             // Regresar a la actividad de login (MainActivity)
             val intent = Intent(this, MainActivity::class.java)
