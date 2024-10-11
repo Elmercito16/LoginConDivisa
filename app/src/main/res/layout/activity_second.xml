@@ -75,12 +75,24 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Logout"
-        android:backgroundTint="@android:color/holo_red_dark"
+        android:backgroundTint="@color/purple_500"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.9"
         android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="265dp"
+        android:layout_height="535dp"
+        app:srcCompat="@drawable/intercambio"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="Intercambio image"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
